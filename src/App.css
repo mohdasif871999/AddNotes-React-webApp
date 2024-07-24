@@ -1,0 +1,133 @@
+.note {
+  padding: 2rem;
+  max-width: 1024px;
+  margin: auto;
+}
+.note__header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  border-bottom: 1px solid #94a3b8;
+}
+.note__header .note-heading {
+  color: #334155;
+}
+.note__header .note-sort {
+  border: 1px solid #64748b;
+  border-radius: 12px;
+  padding: 0.5rem 1rem;
+  font-size: 15px;
+}
+.sort__option {
+  font-size: 15px;
+}
+.note__body {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+.note__form {
+  width: 30%;
+}
+.note-form__heading {
+  color: #334155;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.note-form__body {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.note-title,
+.note-desc {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  font-size: 16px;
+}
+.note-btn {
+  padding: 1rem 1.5rem;
+  font-size: 16px;
+  background-color: #4f46e5;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.note__container {
+  width: 60%;
+}
+.note__status {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.7rem;
+}
+.note-tag .text {
+  color: #94a3b8;
+}
+.note-tag .number {
+  margin-left: 5px;
+  padding: 3px 4px;
+  background-color: #94a3b8;
+  color: #f1f5f9;
+  border-radius: 20px;
+}
+.note__list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.note__item {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 15px;
+}
+.note__item.completed .note-item__info .title {
+  text-decoration: line-through;
+  opacity: 50%;
+}
+.note-item__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #cbd5e1;
+}
+.note-item__info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.8rem;
+}
+.note-item__info .title {
+  font-weight: 800;
+  margin-bottom: 0.6rem;
+}
+.note-item__info .desc {
+  color: #94a3b8;
+  font-weight: 300;
+}
+.note-item__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.note-item__btns .remove {
+  background-color: transparent;
+  font-size: 16px;
+}
+.note-item__btns .check {
+  width: 18px;
+  height: 18px;
+}
+.note-item__footer {
+  margin-top: 0.8rem;
+  color: #cbd5e1;
+}
+.empty-note-status-heading {
+  text-align: center;
+}
