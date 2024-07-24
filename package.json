@@ -9,6 +9,7 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "deploy": "vite build && gh-pages -d dist"
+  "homepage": "https://mohdasif871999.github.io/AddNotes-React-webApp/"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -24,4 +25,5 @@
     "eslint-plugin-react-refresh": "^0.4.6",
     "vite": "^5.2.0"
   }
+  
 }
