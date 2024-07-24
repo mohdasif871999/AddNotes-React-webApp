@@ -1,5 +1,6 @@
 {
-  "name": "note-app-project",
+  deploy”: “gh-pages -d build”,
+  "name": "AddNotes-React0-webApp",
   "private": true,
   "version": "0.0.0",
   "type": "module",
